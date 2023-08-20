@@ -1,0 +1,7 @@
+Problem 1 
+git push origin branchname
+remote: Permission to username/Python.git denied to user.
+fatal: unable to access 'https://github.com/username/Python.git/': The requested URL returned error: 403
+
+Solution 1
+git remote set-url origin https://username@github.com/ramkishor-ch-007/Python.git/
